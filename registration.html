@@ -46,9 +46,10 @@
   <main>
     <!-- registration start -->
     <h1>Create an Account</h1>
+    <div class="container">
     <form action="/submit_form.html" method="post">
       <label for="username">Username:</label>
-      <input type="text" id="username" name="username" required minlength="8" maxlength="20">
+      <input type="text" id="username" name="username" required>
       <br>
   
       <label for="email">Email:</label>
@@ -56,11 +57,16 @@
       <br>
 
       <label for="password">Password:</label>
-      <input type="password" id="password" name="password" required minlength="8">
+      <input type="password" id="password" name="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+      <br>
+      
+      <input type="password" placeholder="Confirm Password" id="confirm_password" required>
       <br>
     
       <input type="submit" value="Register">
     </form>
+  </div>
+  
   </main>
   <footer>
     <!-- place footer here -->
