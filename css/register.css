@@ -1,0 +1,7 @@
+.row-md-6 {
+    background-color: aqua;
+    display:flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+}
