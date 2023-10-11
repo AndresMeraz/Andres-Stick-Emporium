@@ -47,9 +47,11 @@
   <main>
     <!-- products -->
     <div class="container">
+      +
       <div class="row g-3">
       <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-    <div class="card" style="width: 18rem;;">
+
+    <div class="card" style="width: 18rem;">
       <img src="images\Qanba.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Qanba Drone 2</h5>
@@ -74,7 +76,7 @@
       <div class="card-body">
         <h5 class="card-title">Hitbox</h5>
         <p class="card-text">A leverless alternative to the traditional arcade stick.</p>
-        <a href="#" class="btn btn-primary">Add to cart</a>
+        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">Add to cart</a>
       </div>
       </div>
     </div>
@@ -105,6 +107,16 @@
         <h5 class="card-title">Playstation 5 Gamepad</h5>
         <p class="card-text">Your traditional console gamepad.</p>
         <a href="#" class="btn btn-primary">Add to cart</a>
+        <div class="modal" id="modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header"></div>
+              <h1>Added to cart successfully!</h1>
+              <button class="btn btn-secondary" data-bs-dismiss="modal" data-bs-target="#modal">Close</button>
+            </div>
+            </div>
+          </div>
+        </div> 
       </div>
     </div>
     </div>
