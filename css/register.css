@@ -1,7 +1,9 @@
-.romd-6 {
-    background-color: aqua;
-    display:flex;
-    justify-content: center;
-    padding: 5px;
-    margin: 5px;
+
+h1 {
+    background-color:#999999;
+    margin: 0 auto;
+    padding: 0 auto;
+
+    text-align: center;
+
 }
