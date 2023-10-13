@@ -33,6 +33,10 @@
     border: 1px solid lightgrey;
     border-radius: 3px;
   }
+
+  .col-25 .container {
+    margin-right: 50px;
+  }
   
   input[type=text] {
     width: 100%;
