@@ -24,3 +24,18 @@ a:link {
 li {
     list-style-type:none;
 }
+
+img {
+    float: right;
+}
+
+p {
+    font-weight: bold;
+font-size: larger;
+
+}
+
+ul {
+    padding: 10px;
+    
+}
