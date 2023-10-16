@@ -5,7 +5,7 @@ This is my ecommerce website made for our first capstone project of Pluralsight 
 
 ## pages
 
-![Home](<Screenshot (23).png>)
+![Home](<images/Screenshot (23).png>)
 ![Products](<images/Screenshot (24).png>)
 ![Cart](<images/Screenshot (25).png>)
 ![Login](<images/Screenshot (26).png>)
